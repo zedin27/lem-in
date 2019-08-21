@@ -1,0 +1,8 @@
+numpy
+pandas
+plotly
+networkx
+holoviews
+matplotlib
+bokeh
+seaborn

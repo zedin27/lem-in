@@ -1,0 +1,11 @@
+10
+you 0 0
+and 1 0
+##start
+1 1 0
+##end
+me 2 0
+1-you
+you-and
+1-and
+and-me

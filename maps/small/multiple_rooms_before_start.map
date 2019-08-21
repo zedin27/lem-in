@@ -1,0 +1,12 @@
+10
+thomas 0 0
+soylent 1 1
+##start
+almonds 111 000
+zeid 1 1
+##end
+peas 444 555
+almonds-zeid
+zeid-thomas
+thomas-soylent
+soylent-peas
