@@ -26,7 +26,7 @@ After selecting the map of your choice from the `maps` folder, you will see diff
 
 To understand what is it doing, I will describe each part of the map file that is being used:
 
-`ex.map`
+`~/small/ex.map`
 
 ```
 3		<- Number of ants placed
@@ -44,3 +44,9 @@ To understand what is it doing, I will describe each part of the map file that i
 ```
 
 The first line of the file will be **ALWAYS** the total number of ants in place. After that, you can start creating more rooms. In order to create a new room, the structure must be `[room string name] [position x] [position y]`. For example, `2 5 0` is a room with a name `2` located in `5` and `0`. Once the rooms are created (including the start and end), we can link to each room to create a path for our ants such as `0-2`, `0-3`, etc...
+
+## Demo
+
+<div style="text-align:center">
+  <img src="resources/demo.gif" width = "100%" alt = "admit you love this"/>
+</div>
