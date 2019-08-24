@@ -8,7 +8,7 @@
 
 ## In World Practice Inspiration
 
-[Slime Mold Networks](https://www.wired.com/2010/01/slime-mold-grows-network-just-like-tokyo-rail-system/)
+[Slime Mold Networks Just Like Tokyo Rail System](https://www.wired.com/2010/01/slime-mold-grows-network-just-like-tokyo-rail-system/)
 
 ## Building
 
