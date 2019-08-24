@@ -31,18 +31,18 @@ To understand what is it doing, I will describe each part of the map file that i
 `~/small/ex.map`
 
 ```
-3		<- Number of ants placed
-2 5 0	<- Creating a new room
+3		     <- Number of ants placed
+2 5 0	   <- Creating a new room
 ##start  <- Command call of the start room
-0 1 2	<- Start room of all ants first placed
+0 1 2	   <- Start room of all ants first placed
 ##end    <- Command call of the end room
-1 9 2	<- Exit room of all ants in the end
-3 5 4	<- Creating a new room
-0-2	  <- Room name 0 creating a path to room name 2
-0-3	  <- Room name 0 creating a path to room name 3
-2-1	  <- Room name 2 creating a path to room name 1
-3-1	  <- Room name 3 creating a path to room name 1
-2-3	  <- Room name 2 creating a path to room name 3
+1 9 2	   <- Exit room of all ants in the end
+3 5 4	   <- Creating a new room
+0-2	     <- Room name 0 creating a path to room name 2
+0-3	     <- Room name 0 creating a path to room name 3
+2-1	     <- Room name 2 creating a path to room name 1
+3-1	     <- Room name 3 creating a path to room name 1
+2-3	     <- Room name 2 creating a path to room name 3
 ```
 
 The first line of the file will be **ALWAYS** the total number of ants in place. After that, you can start creating more rooms. In order to create a new room, the structure must be `[room string name] [position x] [position y]`. For example, `2 5 0` is a room with a name `2` located in `5` and `0`. Once the rooms are created (including the start and end), we can link to each room to create a path for our ants such as `0-2`, `0-3`, etc...
