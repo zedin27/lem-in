@@ -56,5 +56,5 @@ The first line of the file will be **ALWAYS** the total number of ants in place.
 And for the big map from the `visual/ex.txt` example:
 
 <div style="text-align:center">
-  <img src="resources/bigboi.png" width = "100%" alt = "admit you love this"/>
+  <img src="resources/biboi.png" width = "100%" alt = "admit you love this"/>
 </div>
