@@ -6,6 +6,10 @@
 
 *****
 
+## DISCLAIMER
+
+Jupyter Notebook was mainly used for **visualization** purposes as a side objective. The core language used is in C.
+
 ## In World Practice Inspiration
 
 [Slime Mold Networks Just Like Tokyo Rail System](https://www.wired.com/2010/01/slime-mold-grows-network-just-like-tokyo-rail-system/)
@@ -18,10 +22,6 @@
 > **-p** Lists of used paths that the ants are being sent.
 >
 > **-c** Count the total of turns it took the total traversal of the map from source to exit.
-
-## General Rules
-
-* First line of the `map` file is always the total number of ants
 
 ## Running the program
 After selecting the map of your choice from the `maps` folder, you will see different files with bunch of things happening.
