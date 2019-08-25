@@ -17,6 +17,7 @@ Jupyter Notebook was mainly used for **visualization** purposes as a side object
 ## Building
 
 `make && pip3 install -r requirements.txt`
+
 `./lem_in [-p] [-c] < maps/your_choice_of_map`
 
 > **-p** Lists of used paths that the ants are being sent.
